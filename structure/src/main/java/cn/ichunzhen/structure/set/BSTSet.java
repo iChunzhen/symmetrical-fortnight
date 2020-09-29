@@ -2,10 +2,10 @@ package cn.ichunzhen.structure.set;
 
 import cn.ichunzhen.structure.tree.BST;
 
-public class BTSSet<E extends Comparable<E>> implements ISet<E> {
+public class BSTSet<E extends Comparable<E>> implements ISet<E> {
     BST<E> bst;
 
-    public BTSSet() {
+    public BSTSet() {
         bst = new BST<>();
     }
 
